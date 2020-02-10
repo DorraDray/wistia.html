@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cd8a6ed897.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> <!--load all styles -->
+</head>
+<header>
+    <div class="header-div">
+<div class="menu-all">
+    <img src="test.PNG" />
+    <ul class="menu">
+        <li class="dropdown" ><a   href="">Wistia for Marketing v  </a >
+            
+            <div class="dropdown-content">
+
+                <div class="img-logo-parag">
+                    <img class="img-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAwFBMVEX///8AAABUu/8UjuCpqanx8fFYWFjBwcHr6+tnZ2f39/f09PStra1DQ0MAht4AiN/Hx8dfv//Nzc2YmJhAtv/A2fReXl7l5eUTExOrq6vS0tK2trbDw8MKCgpMuf+SkpJzc3NPT0/d7PknJyeDg4NxcXEyMjLe3t5NouXI5/+GhoY8PDzm9P/z+v+f1v++4/8fHx+Tw+46muOy3f99yf83Nzel2P/P5PeDy/99t+slk+FeqeenzfBXpuZ1tOoAgN1BLNFKAAAHeElEQVR4nO2aaVviPBSGZVEUWQURwQEEBRfqIOM7zDDb//9X02Zps5y0TcX58F7P/UXaNDW9m+Rk6dERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/4zzi2J2WknRepw4SRo3etFe90O5wnEV8IX1PkdjpdC4yH+2jWD8mv59KEWRZeixpTCVVWVKNH9TYQVW/YnVWkjwnSVelLOSV7ODW8QCzKPE0z6N+BF/68/j3KSvngLpsyJKaVNIiShmKA0rfvS6lJ05n6vskb8COTujy11niXd7HPTTlSTc5OGFlIdrohXiilZ000pzY+uoLU4sQcRh9vO6XXE37g3mblJXqd6OpUBiIJyLe8r2m3NZn2ZPN8DD6eLMwu4t/w7w7KZcnX5ITvCzWdcfxI9n3YKfjBm/pm4mMw7P7M2Eyb+3T+z5aX8dU/e94fOuXQyYvyakpK0vHvLIXP1HDTKrqOUx9wtHsih0dN5aKiLrCEY8uV3XtpCBF34ksGBnVChCsgyBIvSBYzx8/v7z1+5Oyqc8RPD7F+pZm0pJVrfjQ1Dc1n23sEMH10RHUrS+pwf+ROQsQeomYTLidbgxzNdFTo1Nflcxk8OiUEozgsWInk97S1MfsztQc9SYZv4vpu0sKNiKzFqAbm8nF5LOSt2PoYPDAMS5ZKmTXlug29VGdARGaiupT3qsjtPgTeNkr99dWgfSO+Fi06A37qw8RzMZu6Dtnh3kmBYX0XbOUGqvipasc/yUXa6/q19Xy9uz60hMOqkbNCmmYVxv66lRlJimkj4dyUYrDDZ3nfY/KN9eyEsGDnRlKFws16dmsq2TjzTOqKKKPD+afZBs+3ND5Mbc/Ne4yBkZvpnSHfISs9NFm4LD13bLjs+wSF9E3kHmmuSt5Tr7m9Dd5M3NawYMX8vxIzs/uk6Q7U7Wlj7creh6tUUAfbyjRHEYM6zP/SX5ecvV/fcue1d5OlfqziE0ql2pqrFkHf7DSgpgtaxTQxxeIbqKffABwqKFzxFsOf33Wcnf6KNsIHjJwRBjBY6xfGWHpqwl/UReVRgF9ynvmvYg1pn8PmcO/fpdFjeCPnk+OU9RCbvhvHjziOUZTO2LYSwZT6U8uCdL462uovcyt8pIPQ5Cqb9Iv8+Hyet8yMmrBo6P5uFdLeaWWX0Cs9yX+milDM399S7Un6Thq6DsIJi6B4cztm1hl3rUrFSOfFjy4Szkm4MFDBNInVbOAWi4dx/5SWrC3Pq0oslvO6mG9CLp9Q2A41Q3VlV/iFfrXVqWyNfN9SjoVHjiSYLtUlOmNnEMu1p82Y38bVwX01sczxKMo3pRnjrsX5PFbtxwvEpS73bdvL5+VSLHehnWv/d3MpQSPqV5IETxYzawlVyWQ+uLxS0r/5KuP99AL46J/uuocVb1Q36V5XgkeZiGVcHcb/RoaWR36jupy2dS1NOKrj79XZfmRv/MpeYMPYP693Y7sVVr26mAcPPjq/bWSNJN17jSphwoufWFftZT+yP1OX338VuNajKjgKU98MILd677F5VUqP+z0C6nmxGoRK1kzp6QKt75kzfoQy6VKONKxlsMPSrDe/fy+bbWlu7Dy7YjLhrxh8ho205Jk8EgauEqaPhEs6ebrqe/ZpW9D/+tiXP7eh4b22+324eFhu92326o5hhV3I8RUg//RRwNitMorqBUHUvWJ16HOmmP89K1c9oiNmuL8alWy+ENVPhE8+NaYORViSYszXj9N0vXJ/WIixU+fsfOu4voawZ99O9Ne+zedNfmswupNkhhKLBFl6HNb8tLH3+6wabAhGktxtpnywnbtyHuRODKTlIZjx9AsfTyUE52flz7HFzf85lTXUIBf2XWv0nZuaW6kInsNPO62iVU8U5+Zm8+TiaGzlz5XF7BxvNQC/M5jb+7MHu+M220hnkIQvbS1WG+075Grffno4/+EGCE3XAnevGZHjUrFbU/skZVKz0SaSLIDh61vaDwMHy0SUysffU3nta5q6cvPbHvtberHCCJ4UCu4YnOa2luw9ZUGiiw+cqG+CPDQF4/cbfjbuaaSfNhl22u9pt9i5H6TInhQfQyhTzkU96Qii4e+mav/lG2GahY+zDPttbYpDZfD+mF68/TZ+fpJfeEIsnGxGjXk9zxUxvz6iP3SBK72xvFI+QiyokZra62y2LC1KXp5bux8/eQ+rwG5aJ9fX89Zg49kZCe/osnNPr3Pa/0gZxom5ynlcLYQa+Bi26O3Y/Pr4xXatbDHa/h7hs4pw+VwzvvwMzViKJy5d3fuXBasYfPI/LrUsSSSWx8fGzu/yODj/Rz78i4e/rQYbY3oxP7H62Ved7wkrqSVa3BKzDpqTUXewLVYP8jSJ+eyzxnVa5FyoxwE62A9D9mFXMbs5msPcYIn977z1PFFxFW10WhUjYc7Ht/dLheL5v21+6lurqOMdJOM7nktGkI9OmikrOqtWAkO9rUfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOD9/AUZqHA/p2Z/HwAAAABJRU5ErkJggg==" alt="logo">
+                    <p> Host, customize, and measure <br> your videos, all in one place.</p>
+                </div>
+                <div class="features-menu menu-space">
+                    <a href="">Features</a>
+                    <a href="">Pricing</a>
+                    <a href="">Integrations</a>
+                    <a href="">Platform</a>
+                </div>
+
+                <div class="customize-menu menu-space">
+                    <ul> CUSTOMIZE
+                        <li><a href="">Custom Player</a> </li>
+                        <li><a href="">Embedding</a> </li>
+                        <li><a href="">Channels</a> </li>
+                
+                    </ul>
+
+                </div>
+                <div class="convert-menu menu-space">
+                    <ul> CONVERT
+                        <li><a href="">Video SEO</a> </li>
+                        <li><a href="">Lead Generation</a> </li>
+                        <li><a href="">Marketing Automation</a> </li>
+                
+                    </ul>
+
+                </div>
+                <div class="analyze-menu menu-space">
+                    <ul> ANALYZE
+                         <li><a href="">Analytics</a> </li>
+                         <li><a href="">A/B Testing</a> </li>
+                                
+                    </ul>
+                </div>
+            
+                <div class="create-button">
+                    <button  type="button">Create a free account</button>
+                </div>
+            </div>
+     
+        </li >
+        <li class="soapbox-menu" ><a href="">Soapbox v</a></li >
+        <li class="learning-center-menu" ><a href="">Learning Center v </a></li >
+        <li class="video-series-menu" ><a href=""> Video Series v </a></li >
+    </ul>
+</div>
+<div class="but-menu">
+    <button id="login" type="button">login</button>
+    <button id="get-start" type="button">Get started</button>
+</div>
+</div>
+</header>
+
+
+<body>
+    <main>
+        <section>
+            <div class="watch-video">
+                <div class="video">
+                    <p class="paragraph">
+                         <span>Video software</span> for <br>
+                            the video-loving business
+
+                    </p>
+
+                    <button type="button">Watch video</button>
+                </div>
+                <div>
+                    <video width="597" height="460" controls>
+                        <source src="https://www.youtube.com/channel/UCQd8EzmhvpiOs6j3Zr7zeBQ" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+            
+            
+            <div class="start-for-free">
+
+                <div class="wistia-hosting">
+
+
+                    <i class="fas fa-sort-amount-down-alt logoo1"></i>                
+                        <p class ="title">
+                            Wistia Hosting : Market your<br> videos
+
+                        </p>
+                        <p class="wistia-hosting-parag">
+                             Try our sleek, customizable player,<br> 
+                             advanced tools for marketers, and <br> detailed analytics. <a href="">Learn more</a>
+
+                        </p>
+
+                
+                        <button class="btn btn1" type="button">Start for free</button>
+
+                </div>
+                <div class="soapbox">
+                    <i class="fas fa-tv logoo2"></i>
+                        <p class ="title" >
+                             Soapbox: create new videos, fast
+
+                        </p>
+                        <p>
+                            Make professional videos in minutes<br> with just your computers camera and <br> smile
+                            <a href="">Learn more</a>
+                        </p>
+                        <button class="btn btn2" type="button">Start for free</button>
+
+                </div>
+
+                <div class="grow">
+
+                  
+                    <i class="fas fa-book logoo3" ></i>
+                        <p class ="title">
+                         Grow your video skills
+                        </p>
+                        <p>
+                            in-depth guides for making,<br> marketing, and measuring video.<br>
+                            Get inspired and get shooting
+                        </p>
+
+
+                        <button class="btn btn3" type="button">Explore and learn</button>
+
+                </div>
+            </div>
+            <div class="wistia-icon">
+                <div>
+                <p>
+                    Wistia is proud to <br> help over 500,000<br> businesses grow <br> with video.
+                </p>
+            </div>
+            <div>
+                <img id="img1" src="https://web.archive.org/web/20190614235836im_/https://images.ctfassets.net/j7pfe8y48ry3/5RC3uofeSc6wiEQieg4Gmy/32077f498f18aa0c16072ef6d94a25f1/Mailchimp-7ebe21d6e1a8e73dfaa0a01cb2747dd7.svg?w=101"
+                     />
+                </div>
+                <div>
+                <img id="img2"src="https://web.archive.org/web/20190614235836im_/https://images.ctfassets.net/j7pfe8y48ry3/BTKw9fTYzYE6QUAQkkom2/95c5e5f243f125031a3f1524613ffd37/Moz-968d7370d103b9e8d54d8d6c5ccc25ef.svg?w=231"
+                     />
+                </div>
+                <div>
+                <img id="img3"src="https://web.archive.org/web/20190614235836im_/https://images.ctfassets.net/j7pfe8y48ry3/6H8P4DI0E002WiY8EO4Ukk/62ee2176ebcbb5cabef89b42ca5a004e/Zendesk-b2d6a2287655dc487ea7de701df73ed0.svg?w=134"
+                     />
+                </div>
+                <div>
+                <img id="img4" src="https://web.archive.org/web/20190614235836im_/https://images.ctfassets.net/j7pfe8y48ry3/4RcyWk5rkAWsg8ekYW8QIq/be9e08a1f0b0d7bb4a9768f12ad3166a/Unbounce-f61750cbb6135bd4058243c8065f7652.svg?w=121"
+                     />
+                </div>
+                <div>
+                <img id="img5"src="https://web.archive.org/web/20190614235836im_/https://images.ctfassets.net/j7pfe8y48ry3/7dfsuiRfEcya2EsAOkYqyC/5ffad9d9ea62eff4d333a9cf3aa58067/casper-logo.svg?w=1134"
+                     />
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+        <div class="original-wistia-taking">
+            <Div class="original">
+
+                <img src="Capture1.PNG" />
+
+                <H3>Original Series: One, Ten, One Hundred</H3>
+                <p> Explore how budgetary constraints affect <br>creativity–for better or worse–in our Webby
+                    <br>Award-winning original series.</p>
+
+                <a href="">Watch it now</a>
+
+            </Div>
+
+            <Div class="wistia-channel">
+
+                <img src="Capture2.PNG" />
+
+                <H3>Wistia Channels have arrived!</H3>
+                <p> No antennas. No ads. Just a collection of your <br>videos—displayed in one easy-to-watch format.
+                    <br>Meet Wistia Channels.</p>
+
+                <a href="">Learn more</a>
+
+            </Div>
+            <Div class="taking">
+
+                <img src="Capture3.PNG" />
+
+                <H3>Taking the Road Less Traveled</H3>
+                <p> Learn how we built a creatively-driven, <br>profitable business — all without raising <br>additional
+                    funding or going public.</p>
+
+                <a href="">Read the full story</a>
+
+            </Div>
+        </div>
+            <div class="term-of-service">
+                <p>We’ve updated our <a href="">Terms of Service</a>.</p>
+            </div>
+        </section>
+
+                
+    </main>
+    <footer class="footer">
+        <div class=div-footer>
+            <div class="wistia-footer">
+                <p>
+                    Wistia creates video <br>software for growing <br> businesses.
+                </p>
+                <p class="follow-us">
+                    <span>Follow us:</span> <a href="">Facebook</a>,<a href="">LinkedIn</a>,<a href="">Twitter</a>,<a
+                    href="">Instagram</a>
+                </p>
+             </div>
+            <div class="wistia-for-marketing-footer">
+                <img src="capture.png"/>
+                <ul >WISTIA FOR MARKETING
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a id="create-a-free-account" href="">Create a free account</a></li>
+                </ul>
+            </div>
+
+            <div class="soapbox-footer">
+                <img src="test1.png"/>
+                <ul>SOAPBOX
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a id="install-for-free" href="">Install for free</a></li>
+                </ul>
+            </div>
+
+            <div class="company-footer">
+                <ul>COMPANY
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Values</a></li>
+                    <li><a href="">Brand Assets</a></li>
+                    <li><a href="">Community</a></li>
+                </ul>
+            </div>
+
+            <div class="support-footer">
+                <ul>SUPPORT
+                    <li><a href="">Documentation</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Troubleshooting</a></li>
+                    <li><a href="">Status</a></li>
+                    <li><a href="">Contact Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="span-footer">
+            <span> ©2001–2019 All rights reserved. Privacy and Terms. </span>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/cd8a6ed897.js" crossorigin="anonymous"></script>
+</html>
